@@ -10,11 +10,7 @@ def run_file(command: str):
 
 def timer(s: int, file: str, mode: str, modes: dict):
 
-    counter = 1
-
-    while counter <= s:
-        time.sleep(1)
-        counter += 1
+    time.sleep(s)
 
     if mode == "exec":
 
